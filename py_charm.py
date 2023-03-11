@@ -1,5 +1,5 @@
 def mane_function():
-    number =42
+    number =44
     string = 'hello'
 
     print(locals())
@@ -8,7 +8,7 @@ def mane_function():
 
 # Task 6
 a1 = 2,3
-b1 = a1*5+1
+# b1 = a1*5+1
 
 print(b1)
 
@@ -18,8 +18,8 @@ var2 = 2
 
 print(var1 and var2)
 
-# Task
-a2 = [None]*888
+# Task 8 new
+a2 = [None]*777
 
 print(len(a2))
 
