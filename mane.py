@@ -19,3 +19,10 @@ print(one.real)
 # Task3
 lst = [1 for i in [1,2,3]]
 print(3 in lst)
+
+# Task4
+def func(num):
+    return num+15
+
+func(5)
+print(num)
