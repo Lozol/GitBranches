@@ -6,15 +6,16 @@ def mane_function():
 
     print(globals())
 
-def test_function(arg):
-    if arg is number:
-	print(arg)
+# test_function не можу створити бо ругається Anaconda Prompt. Please open Anaconda prompt, and run `conda init powershell` there.
+def _function(some):
+    if some==5:
+        print("Yes")
     else:
-        print("���� �� ��")
+        print("It is not good")
 
 
 mane_function()
-test_function('xa-xa')
+_function(5)
 # Task1
 a = 3/2
 print (a==1,5)
@@ -26,3 +27,8 @@ print(one.real)
 # Task3
 lst = [1 for i in [1,2,3]]
 print(3 in lst)
+
+# Task5
+lst1=[1,2,3]*-1
+lst1*=2
+print(lst1)
