@@ -5,7 +5,12 @@ def mane_function():
     print(locals())
 
     print(globals())
+    print('some code adding')
+    return number*2
 
+mane_function()
+my_test = mane_function()
+print(my_test)
 
 mane_function()
 # Task1
