@@ -19,11 +19,11 @@ var2 = 2
 print(var1 and var2)
 
 # Task 8
-a2 = [None]*777
+a2 = [None]*888
 
 print(len(a2))
 
-# Task 9
+# Task 9 new
 zxc = [1,2,3]
 print(zxc is zxc[:])
 
