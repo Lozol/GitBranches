@@ -6,8 +6,15 @@ def mane_function():
 
     print(globals())
 
+def test_function(arg):
+    if arg is number:
+	print(arg)
+    else:
+        print("ўось не те")
+
 
 mane_function()
+test_function('xa-xa')
 # Task1
 a = 3/2
 print (a==1,5)
