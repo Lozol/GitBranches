@@ -15,3 +15,7 @@ print (a==1,5)
 # Task2
 one = '1'.isalpha()
 print(one.real)
+
+# Task3
+lst = [1 for i in [1,2,3]]
+print(3 in lst)
